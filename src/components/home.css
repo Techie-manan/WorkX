@@ -1,0 +1,52 @@
+.sofa {
+    opacity: 0.5;
+}
+
+.text {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.para{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width : 90%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-hide::-webkit-scrollbar {
+    width: 0px;
+    /* Set width to 0 to hide it */
+    background: transparent;
+    /* Make background transparent */
+}
+/* .fadeY{
+    animation: fadeY 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeY {
+    0% {
+        transform: translateY(50px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+} */
