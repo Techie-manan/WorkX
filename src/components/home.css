@@ -36,17 +36,36 @@
     background: transparent;
     /* Make background transparent */
 }
-/* .fadeY{
-    animation: fadeY 0.5s ease-in-out forwards;
+
+.servicebox {
+    width : 90%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes fadeY {
+.reviewbox {
+    width: 20%;
+    height : 90%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(230, 223, 223);
+    rotate: 10deg;
+}
+.fadeX{
+    animation: fadeX 1s ease-in-out forwards;
+}
+
+@keyframes fadeX {
     0% {
-        transform: translateY(50px);
+        transform: translateX(1000px);
         opacity: 0.6;
     }
     100% {
         transform: translateY(0);
         opacity: 1;
     }
-} */
+}

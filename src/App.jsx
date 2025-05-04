@@ -7,6 +7,7 @@ import Services from './components/services.jsx'
 import Footer from './components/footer.jsx'
 import Tilts from './components/tilts.jsx'
 import WhyW from './components/whyW.jsx'
+import Review from './components/review.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Tilts />
       <WhyW />
       <Services />
+      <Review />
       <Footer />
       </div>
   )
