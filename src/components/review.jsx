@@ -2,7 +2,7 @@ import React from 'react'
 
 const review = () => {
     return (
-        <div className='w-screen h-screen bg-blue-950 centre flex-col'>
+        <div className='h-screen bg-blue-950 centre flex-col overflow-hidden'>
             <h1 className='text-6xl font-semibold text-white'>It doesn't get </h1>
             <h1 className='text-5xl font-semibold text-orange-500 my-5'>much easier</h1>
             <div className="centre h-1/2 w-screen fadeX">

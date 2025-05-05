@@ -4,7 +4,7 @@ import AniOnScroll from './AniOnScroll'
 
 const aboutW = () => {
     return (
-        <div className='relative h-screen w-screen bg-orange-500 p-20'>
+        <div className='relative h-screen bg-orange-500 p-20'>
             <div className='text'>
                   <div className='h-fit overflow-hidden'>
                   <AniOnScroll><h1 className='fadeY'>We are on a mission</h1> </AniOnScroll>

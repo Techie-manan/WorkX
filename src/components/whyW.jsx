@@ -5,8 +5,8 @@ const whyW = () => {
     return (
         <div className='relative w-full h-screen flex z-0 bg-amber-200'>
             <div className="centre flex-col w-1/2 bg-amber-800">
-                    <AniOnScroll><h1 className='text-8xl font-bold'>Why </h1></AniOnScroll> 
-                    <AniOnScroll><h1 className='text-8xl font-bold'>WorkX ?</h1> </AniOnScroll>
+                <AniOnScroll><h1 className='text-8xl font-bold'>Why </h1></AniOnScroll>
+                <AniOnScroll><h1 className='text-8xl font-bold'>Work<span className='text-orange-500'>X</span>?</h1> </AniOnScroll>
             </div>
             <div className="w-1/2 bg-amber-800 flex  items-start">
                 <AniOnScroll>  <div className='h-[100vh] w-1/2 space-y-3 bg-amber-800 overflow-y-scroll scroll-hide'>
