@@ -1,15 +1,17 @@
 import React from 'react'
-import AniOnScroll from './AniOnScroll'
+import AniOnScroll, {AniYOnScroll} from './AniOnScroll'
 
 const whyW = () => {
     return (
-        <div className='relative w-full h-screen flex z-0 bg-amber-200'>
+      <AniYOnScroll
+      initial = {{ opacity: 0, y: "100vh" }}>
+         <div className='relative w-full h-screen flex z-0 bg-amber-200 '>
             <div className="centre flex-col w-1/2 bg-amber-800">
-                <AniOnScroll><h1 className='text-8xl font-bold'>Why </h1></AniOnScroll>
-                <AniOnScroll><h1 className='text-8xl font-bold'>Work<span className='text-orange-500'>X</span>?</h1> </AniOnScroll>
+                <AniOnScroll delay={1.1}><h1 className='text-8xl font-bold'>Why </h1></AniOnScroll>
+                <AniOnScroll delay={1.1}><h1 className='text-8xl font-bold'>Work<span className='text-orange-500'>X</span>?</h1> </AniOnScroll>
             </div>
             <div className="w-1/2 bg-amber-800 flex  items-start">
-                <AniOnScroll>  <div className='h-[100vh] w-1/2 space-y-3 bg-amber-800 overflow-y-scroll scroll-hide'>
+                <AniOnScroll delay={1}>  <div className='h-[100vh] w-1/2 space-y-3 bg-amber-800 overflow-y-scroll scroll-hide'>
                     <div className="box bg-gray-400 font-semibold text-xl centre">Our Services save your time and reduces stress letting you focus on what is important.</div>
                     <div className="box bg-blue-200 centre flex-col">
                         <img src="src\assets\schedulingg.png" alt="" className='h-[60%]' />
@@ -37,7 +39,7 @@ const whyW = () => {
                 </div></AniOnScroll>
             </div>
 
-        </div>
+        </div></AniYOnScroll> 
     )
 }
 

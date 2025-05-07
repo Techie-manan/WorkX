@@ -10,7 +10,7 @@ const AniOnScroll = ({ children, delay = 0 }) => {
       ref={ref}
       initial={{ scaleY: 0, opacity: 0 }}
       animate={isInView ? { scaleY: 1, opacity: 1 } : {}}
-      transition={{ duration: 0.6, ease: "easeOut", delay }}
+      transition={{ duration: 0.6, ease: "easeOut", delay: delay }}
       style={{ transformOrigin: "bottom" }}
       className="overflow-hidden"
     >
@@ -34,7 +34,7 @@ const AniYOnScroll = ({
       ref={ref}
       initial={initial}
       animate={isInView ? animate : {}}
-      transition={{ duration: 1.1, ease: "easeOut", delay: 0.2 }}
+      transition={{ duration: 1.1, ease: "easeOut", delay: delay }}
     >
       {children}
     </motion.div>
