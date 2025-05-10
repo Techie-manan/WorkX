@@ -8,7 +8,7 @@ const AniOnScroll = ({ children, delay = 0 }) => {
   return (
     <motion.div
       ref={ref}
-      initial={{ scaleY: 0, opacity: 0 }}
+      initial={{ scaleY: 0.2, opacity: 0 }}
       animate={isInView ? { scaleY: 1, opacity: 1 } : {}}
       transition={{ duration: 0.6, ease: "easeOut", delay: delay }}
       style={{ transformOrigin: "bottom" }}
