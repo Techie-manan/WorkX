@@ -1,5 +1,5 @@
 import React from 'react'
-import AniOnScroll, {AniYOnScroll} from './AniOnScroll'
+import AniOnScroll, {AniYOnScroll, AniXOnScroll} from './AniOnScroll'
 
 const whyW = () => {
     return (
@@ -11,7 +11,7 @@ const whyW = () => {
                 <AniOnScroll delay={1.1}><h1 className='text-8xl font-bold'>Work<span className='text-orange-500'>X</span>?</h1> </AniOnScroll>
             </div>
             <div className="w-1/2 bg-amber-800 flex  items-start">
-                <AniOnScroll delay={1}>  <div className='h-[100vh] w-1/2 space-y-3 bg-amber-800 overflow-y-scroll scroll-hide'>
+                <AniXOnScroll delay={1}>  <div className='h-[100vh] w-1/2 space-y-3 bg-amber-800 overflow-y-scroll scroll-hide'>
                     <div className="box bg-gray-400 font-semibold text-xl centre">Our Services save your time and reduces stress letting you focus on what is important.</div>
                     <div className="box bg-blue-200 centre flex-col">
                         <img src="src\assets\schedulingg.png" alt="" className='h-[60%]' />
@@ -36,7 +36,7 @@ const whyW = () => {
                         <p>Lorem ipsum dolor sit amet constur, adipisicing elit.</p>
                     </div>
 
-                </div></AniOnScroll>
+                </div></AniXOnScroll>
             </div>
 
         </div></AniYOnScroll> 
