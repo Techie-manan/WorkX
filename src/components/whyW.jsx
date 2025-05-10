@@ -4,7 +4,7 @@ import AniOnScroll, {AniYOnScroll, AniXOnScroll} from './AniOnScroll'
 const whyW = () => {
     return (
       <AniYOnScroll
-      initial = {{ opacity: 0, y: "100vh" }}>
+      initial = {{ opacity: 0, y: "90vh" }}>
          <div className='relative w-full h-screen flex z-0 bg-amber-200 '>
             <div className="centre flex-col w-1/2 bg-amber-800">
                 <AniOnScroll delay={1.1}><h1 className='text-8xl font-bold'>Why </h1></AniOnScroll>

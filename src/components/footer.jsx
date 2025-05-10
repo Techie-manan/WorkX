@@ -7,7 +7,7 @@ const footer = () => {
     <div className="bg-gray-950 text-white py-4 centre h-[40vh] box-shadow-2xl">
       <div className='flex-2/5 ml-15 flex flex-col gap-5'>
         <h1 className='text-4xl font-bold '>Work<span className='text-orange-600'>X</span></h1>
-        <h4>Know more about the develepor</h4>
+        <h4>Learn more about the develepor</h4>
         <div className="flex gap-6 text-white text-xl">
          <a href="https://www.instagram.com/m.ana._n"><i className="fi fi-brands-instagram hover:text-pink-500 hover:scale-110 transition-transform duration-300 cursor-pointer"></i> </a> 
          <a href="https://x.com/MananAg82"> <i className="fi fi-brands-twitter-alt hover:text-blue-400 hover:scale-110 transition-transform duration-300 cursor-pointer"></i> </a> 
