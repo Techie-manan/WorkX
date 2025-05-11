@@ -11,7 +11,18 @@ const landing = () => {
         <AniOnScroll>  <h1>at your <span className='colorani'>tips </span> </h1></AniOnScroll>
       </div>
 
-      <div className='absolute w-full h-screen centre z-0 opacity-0 bg-orange-400 fadeY'>
+      <div className='absolute centre w-full h-screen centre z-0 opacity-0 bg-orange-400 fadeY'>
+        <div className='w-[60%] h-full flex flex-col'>
+          <div className="flex-1/3">
+          <img src="src\assets\purse.png" alt="" className='-rotate-20 scale'/>
+          </div>
+          <div className="flex-1/3">
+           <img src="src\assets\cleaner.png" alt="" className='rotate-20 scale justify-self-end'/>
+          </div>
+          <div className="flex-1/3">
+           <img src="src\assets\washmach.png" alt="" className='-rotate-18 scale ml-50'/>
+          </div>
+        </div>
       </div>
     </div>
   )
