@@ -13,7 +13,7 @@ const aboutW = () => {
                     <AniOnScroll> <h1 className='fadeY'>to take hassle</h1></AniOnScroll>
                 </div>
                  <div className='h-fit overflow-hidden'> 
-                 <AniOnScroll>   <h1 className='fadeY'>out of home</h1></AniOnScroll>
+                 <AniOnScroll>   <h1 className='fadeY'>out of home!!</h1></AniOnScroll>
                  </div>
                 </div>
 
