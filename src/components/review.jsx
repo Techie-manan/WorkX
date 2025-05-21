@@ -17,12 +17,12 @@ const review = () => {
                     </div>
                     <div className="reviewbox">
                         <h1 className=" text-2xl font-bold">Book your<br /> service!</h1>
-                        <img src="src\assets\booking.png" alt="" />
+                        <img src="\assets\booking.png" alt="" />
 
                     </div>
                     <div className="reviewbox">
                         <h1 className=" text-2xl font-bold">Enjoy your<br /> home!</h1>
-                        <img src="src\assets\enjoy.png" alt="" />
+                        <img src="\assets\enjoy.png" alt="" />
                     </div>
                 </div>
             </AniXOnScroll>

@@ -18,7 +18,7 @@ const aboutW = () => {
                 </div>
 
             <div id="" className='w-2/3 h-[80vh] sofa absolute left-1/3 top-1/5 overflow-hidden'>
-                <img src="src\assets\sofaa.png" alt="" className='w-full h-full object-cover'/></div>
+                <img src="\assets\sofaa.png" alt="" className='w-full h-full object-cover'/></div>
 
             <div className='para absolute top-3/5'>
                 <p>By living in a building powered by <br />WorkX, you have access to more<br /> than just to live</p>

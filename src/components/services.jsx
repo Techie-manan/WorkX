@@ -18,20 +18,20 @@ const services = () => {
 
           <AniYOnScroll delay={0.2}> <div className="servicebox relative bg-blue-200 flex flex-col">
             <h1 className='text-2xl font-semibold mt-2'>Women's Parlour <br />& Spa</h1>
-            <img src="src\assets\womensaloon.png" alt="" height='50' className='ml-12' />
-            <button className='absolute bottom-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <img src="\assets\womensaloon.png" alt="" height='50' className='ml-12' />
+            <button className='absolute bottom-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
           <AniYOnScroll delay={0.7}> <div className="servicebox relative bg-amber-100 flex flex-col">
             <h1 className='text-2xl font-medium mt-2'>Home Cleaning <br /> Services</h1>
-            <img src="src\assets\cleaning.png" alt="" className='h-[60%] ml-12' />
-            <button className='absolute bottom-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <img src="\assets\cleaning.png" alt="" className='h-[60%] ml-12' />
+            <button className='absolute bottom-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
           <AniYOnScroll delay={0.5}> <div className="servicebox relative bg-white flex flex-col">
             <h1 className='text-2xl font-medium mt-2'>Home Interior &<br /> Designing</h1>
-            <img src="src\assets\interior.png" alt="" className='h-[60%] ml-12' />
-            <button className='absolute bottom-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <img src="\assets\interior.png" alt="" className='h-[60%] ml-12' />
+            <button className='absolute bottom-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
         </div>
@@ -41,20 +41,20 @@ const services = () => {
 
           <AniYOnScroll  delay={0.4}> <div className="servicebox relative bg-blue-300 flex flex-col">
             <h1 className='text-2xl font-semibold mt-2'>Men's Sallon <br /> & Massage</h1>
-            <img src="src\assets\mensaloon.png" alt="" height='50' className='ml-12' />
-            <button className='absolute bottom-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <img src="\assets\mensaloon.png" alt="" height='50' className='ml-12' />
+            <button className='absolute bottom-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
           <AniYOnScroll delay={0.4}>  <div className="servicebox relative bg-gray-100 flex flex-col">
             <h1 className='text-2xl font-semibold mt-2'>Home Appliances <br /> Repairing</h1>
-            <img src="src\assets\appliance.png" alt="" height='50' className='ml-12' />
-            <button className='absolute bottom-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <img src="\assets\appliance.png" alt="" height='50' className='ml-12' />
+            <button className='absolute bottom-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
           <AniYOnScroll delay={0.7}> <div className="servicebox relative bg-pink-100 centre flex-col">
-            <img src="src\assets\services.png" alt="" className='h-[60%]' />
+            <img src="\assets\services.png" alt="" className='h-[60%]' />
             <h1 className='absolute right-1 bottom-5 text-xl font-medium mt-2'>Electrician, Plumber <br /> & Carpenter</h1>
-            <button className='absolute bottom-6 left-6 bg-white rounded-full'><img src="src\assets\image.png" alt="" className='h-10' /></button>
+            <button className='absolute bottom-6 left-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
 
         </div>
