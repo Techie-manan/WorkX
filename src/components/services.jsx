@@ -52,7 +52,7 @@ const services = () => {
           </div></AniYOnScroll>
 
           <AniYOnScroll delay={0.7}> <div className="servicebox relative bg-pink-100 centre flex-col">
-            <img src="\assets\services.png" alt="" className='h-[60%]' />
+            <img src="public\assets\services.png" alt="" className='h-[60%]' />
             <h1 className='absolute right-1 bottom-5 text-xl font-medium mt-2'>Electrician, Plumber <br /> & Carpenter</h1>
             <button className='absolute bottom-6 left-6 bg-white rounded-full'><img src="\assets\image.png" alt="" className='h-10' /></button>
           </div></AniYOnScroll>
